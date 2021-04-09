@@ -1,5 +1,6 @@
-<web-app>   
-  <servlet>
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
         <servlet-name>p1</servlet-name>
         <servlet-class>p1</servlet-class>
     </servlet>
@@ -7,4 +8,57 @@
         <servlet-name>p1</servlet-name>
         <url-pattern>/p1</url-pattern>
     </servlet-mapping>
-</web-app> 
+    <servlet>
+        <servlet-name>p2</servlet-name>
+        <servlet-class>p2</servlet-class>
+    </servlet>  
+    <servlet-mapping>
+        <servlet-name>p2</servlet-name>
+        <url-pattern>/p2</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>p3</servlet-name>
+        <servlet-class>p3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>p3</servlet-name>
+        <url-pattern>/p3</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>p3_2</servlet-name>
+        <servlet-class>p3_2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>p3_2</servlet-name>
+        <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>p4</servlet-name>
+        <servlet-class>p4</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>p4</servlet-name>
+        <url-pattern>/p4</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>p5</servlet-name>
+        <servlet-class>p5</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>p5</servlet-name>
+        <url-pattern>/p5</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>p5_2</servlet-name>
+        <servlet-class>p5_2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>p5_2</servlet-name>
+        <url-pattern>/p5_2</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
